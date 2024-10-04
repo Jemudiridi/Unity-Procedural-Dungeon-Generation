@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a540be718f344bd469a99244da19dc43, type: 3}
+  m_Name: Basic Room
+  m_EditorClassIdentifier: 
+  roomName: BasicRoom
+  isConstantObjectCount: 0
+  roomCellCount: {x: 0, y: 0}
+  roomOffset: {x: 0, y: 0}
+  roomPrefab: {fileID: 3002700598067577119, guid: 11d71f5bee087304dabc0d40197bac81,
+    type: 3}
+  maxRoomEnterance: 3
+  objectSpawnPackages:
+  - spawnableObjectSO: {fileID: 11400000, guid: 1cc4aebde722e0340b7c5c6613a321f4,
+      type: 2}
+    maxSpawn: 1
+    minSpawn: 1
+  - spawnableObjectSO: {fileID: 11400000, guid: 11756ea88f511c34482b3214e08b099b,
+      type: 2}
+    maxSpawn: 1
+    minSpawn: 0
+  - spawnableObjectSO: {fileID: 11400000, guid: 657672a4954be1c48bfa36026d2fe09f,
+      type: 2}
+    maxSpawn: 3
+    minSpawn: 1
+  - spawnableObjectSO: {fileID: 11400000, guid: 5244cd205e926c04085ba7c02f48a9bf,
+      type: 2}
+    maxSpawn: 1
+    minSpawn: 0
+  spawnableObjectSO:
+  - {fileID: 11400000, guid: 4d42d54947cac71429e67566358020a8, type: 2}
+  - {fileID: 11400000, guid: 5a66c04533e21bc4cacc86ed0094aa9b, type: 2}
+  - {fileID: 11400000, guid: 63e05dece3cb1ad42a28287e2cae9d16, type: 2}
+  - {fileID: 11400000, guid: a20ef71fc9e61064ca0aeae1e3fb09e5, type: 2}
+  - {fileID: 11400000, guid: fd2b6e65f769d2b4bac9c31de3c53f64, type: 2}
+  - {fileID: 11400000, guid: 4d42d54947cac71429e67566358020a8, type: 2}
+  - {fileID: 11400000, guid: 63e05dece3cb1ad42a28287e2cae9d16, type: 2}
+  - {fileID: 11400000, guid: 63e05dece3cb1ad42a28287e2cae9d16, type: 2}
+  - {fileID: 11400000, guid: 4d42d54947cac71429e67566358020a8, type: 2}
+  - {fileID: 11400000, guid: a20ef71fc9e61064ca0aeae1e3fb09e5, type: 2}
+  - {fileID: 11400000, guid: 5a66c04533e21bc4cacc86ed0094aa9b, type: 2}

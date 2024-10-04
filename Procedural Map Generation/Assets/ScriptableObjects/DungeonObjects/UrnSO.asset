@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96ad1aff0f6f6040a8b9fd4957265fc, type: 3}
+  m_Name: UrnSO
+  m_EditorClassIdentifier: 
+  objectName: Urn
+  objectPrefab: {fileID: 9007852213187925903, guid: c02be2f8937605347a1c116ea98b480e,
+    type: 3}
+  roomSpawnPoint: 2
+  spawnRotationChangeDegree: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}

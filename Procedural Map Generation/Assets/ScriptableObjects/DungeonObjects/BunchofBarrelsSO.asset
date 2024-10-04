@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96ad1aff0f6f6040a8b9fd4957265fc, type: 3}
+  m_Name: BunchofBarrelsSO
+  m_EditorClassIdentifier: 
+  objectName: BunchofBarrels
+  objectPrefab: {fileID: 2495403188998586204, guid: 2fd05125e4e461e4a8cb76af11b84a20,
+    type: 3}
+  roomSpawnPoint: 2
+  spawnRotationChangeDegree: {x: 0, y: 0.043619387, z: 0, w: 0.99904823}
