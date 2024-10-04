@@ -35,7 +35,7 @@ public class Room
 
     public List<Transform> spawnPointList;
 
-    public List<DungeonObjectSO> instantiatedDOSOList;
+    //public List<DungeonObjectSO> instantiatedDOSOList;
 
     public int roomNumber;
 
@@ -52,7 +52,7 @@ public class Room
     public List<int> connectedRooms = new List<int>();
     public Room(Vector2Int location, Vector2Int size, int cellVolume)
     {
-        instantiatedDOSOList = new List<DungeonObjectSO>();
+       // instantiatedDOSOList = new List<DungeonObjectSO>();
 
         spawnPointList = new List<Transform>();
 
@@ -221,7 +221,7 @@ public class Room
         public Rect spawnArea;
         public Vector3 spawnRotation;
     }
-
+    /*
     public SpawnAreaAndRotation GetWhereToSpawn(DungeonObjectSO dungeonObjectSO)
     {
         SpawnAreaAndRotation SAR = new SpawnAreaAndRotation();
@@ -257,6 +257,6 @@ public class Room
 
         return SAR;
     }
-
+    */
     
 }
